@@ -1,0 +1,31 @@
+/* .about-us{
+    height: 500px;
+} */
+.about-us h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+    font-size: 40px;
+    font-style: bold;
+    color: rgb(0, 0, 48);
+}
+.about-us p{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.6;
+}
+.btn2 {
+    background-color: transparent;
+    color: rgb(0, 0, 48);
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+}
