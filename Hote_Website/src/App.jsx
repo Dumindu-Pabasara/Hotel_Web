@@ -5,7 +5,7 @@ import { Hero } from './Components/Hero/Hero';
 import About_Us from './Components/About Us/About_Us';
 import Accomodation from './Components/Accomodation/Accomodation';
 import { Experiance } from './Components/Experiance/Experiance';
-
+import { Gallery } from './Components/Gallery/Gallery';
 
 const App = () => {
   return (
@@ -15,6 +15,7 @@ const App = () => {
       <About_Us />
       <Accomodation />
       <Experiance />
+      <Gallery />
     </div>
   );
 }
