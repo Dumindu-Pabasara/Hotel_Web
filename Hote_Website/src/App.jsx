@@ -6,6 +6,8 @@ import About_Us from './Components/About Us/About_Us';
 import Accomodation from './Components/Accomodation/Accomodation';
 import { Experiance } from './Components/Experiance/Experiance';
 import { Gallery } from './Components/Gallery/Gallery';
+import Footer from './Components/Footer/Footer';
+import Booking from './Components/Booking/Booking';
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
       <Accomodation />
       <Experiance />
       <Gallery />
+      <Booking />
+      <Footer />
     </div>
   );
 }
