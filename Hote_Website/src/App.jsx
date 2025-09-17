@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Nav_Bar from './Components/Nav Bar/Nav_Bar';
 import { Hero } from './Components/Hero/Hero';
@@ -8,20 +7,28 @@ import { Experiance } from './Components/Experiance/Experiance';
 import { Gallery } from './Components/Gallery/Gallery';
 import Footer from './Components/Footer/Footer';
 import Booking from './Components/Booking/Booking';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Nav_Bar />
-      <Hero />
+      <Routes>
+        <Route path="/" element={<Hero /> } />
+        <Route path="/about" element={<About_Us />} />
+        <Route path="/accommodation" element={<Accomodation />} />
+        <Route path="/experiences" element={<Experiance />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/booking" element={<Booking />} />
+      </Routes>
       <About_Us />
       <Accomodation />
       <Experiance />
       <Gallery />
       <Booking />
       <Footer />
-    </div>
+    </Router>
   );
 }
 
-export default App
+export default App;
