@@ -22,7 +22,7 @@
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
-    transition: background 0.2s, color 0.2s;
+    transition: background 0.4s, color 0.2s;
 }
 .explore-btn4:hover {
     background: #1a2a3a;
