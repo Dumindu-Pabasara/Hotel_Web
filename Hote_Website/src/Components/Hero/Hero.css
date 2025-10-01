@@ -1,8 +1,8 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: url('../../Assets/main2.jpg') ;
-    background: linear-gradient(rgba(194, 43, 43, 0.7), rgba(71, 11, 11, 0.3)),url('../../assets/main.jpg') center/cover no-repeat; /* Update image path as needed */
+    background: url('../../Assets/imgnew.jpg') ;
+    background: linear-gradient(rgba(83, 83, 83, 0.5), rgba(73, 63, 63, 0.5)),url('../../assets/imgnew.jpg') center/cover no-repeat; 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -14,19 +14,33 @@
     max-width: 800px;
 }
 .btn1{
-  background: white;
+  /* background: white;
   color: black;
   padding: 4px 25px;
   font-size: 16px;
   border-radius: 8px;
   cursor: pointer;
   border: 2px solid white;
-  outline: 0;  
+  outline: 0;   */
+  background: #fff;
+    color: #1a2a3a;
+    border: 2px solid #1a2a3a;
+    border-radius: 8px;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.4s, color 0.2s;
+    width: 150px;
   
+}
+.btn1:hover {
+    background: #1a2a3a;
+    color: #fff;
 }
 .hero h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 150px;
+    font-size: 70px;
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 6px #000000;
 }
