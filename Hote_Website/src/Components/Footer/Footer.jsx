@@ -30,7 +30,7 @@ const Footer = () => {
       <hr className="footer-divider" />
       <div className="footer-bottom">
         <span>
-          &copy; <a href="https://epitomehotel.com" className="footer-link">The Epitome Hotel</a>, All Right Reserved. Designed By <a href="https://epitomeict.com" className="footer-link">Epitome ICT</a>
+          &copy; <a href="https://epitomehotel.com" className="footer-link">The Epitome Hotel</a>, All Right Reserved. 
         </span>
         <div className="footer-links">
           <a href="#home">Home</a>
