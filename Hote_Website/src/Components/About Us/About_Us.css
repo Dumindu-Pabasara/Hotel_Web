@@ -28,4 +28,18 @@
     display: block;
     margin-left: auto;
     margin-top: 10px;
+    background: #fff;
+    color: #1a2a3a;
+    border: 2px solid #1a2a3a;
+    border-radius: 8px;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.4s, color 0.2s;
+    width: 150px;
+}
+.btn2:hover {
+    background: #1a2a3a;
+    color: #fff;
 }
